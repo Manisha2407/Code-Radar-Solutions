@@ -8,6 +8,6 @@ int main(){
 //Bitwise OR (|) result → 0111 (which is 7 in decimal).
 scanf("%d%d",&a ,&b);
 c=a|b;
-printf(c);
+printf("%d",c);
 return 0;
 }
