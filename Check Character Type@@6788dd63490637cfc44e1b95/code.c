@@ -15,4 +15,5 @@ int main(){
     else{
         printf("Special Chracter");
     }
+    return 0;
 }
