@@ -6,7 +6,7 @@ int main(){
         printf("A");
     }
     else if(a>=80 && a<90){
-        printf("B");
+        printf("B");//single qoutes are used for chracter and double qoutes are used for string
     }
     else if(a>=70 && a<80){
         printf("C");
