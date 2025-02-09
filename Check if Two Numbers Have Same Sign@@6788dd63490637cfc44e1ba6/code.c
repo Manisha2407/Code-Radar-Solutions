@@ -9,7 +9,7 @@ int main(){
         printf("Different Sign");
     }
     else{
-        printf("negative");
+        printf("Same sign");
     }
     return 0;
 }
