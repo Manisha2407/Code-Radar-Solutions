@@ -2,7 +2,7 @@
 int main(){
     int a;
     scnaf("%d",&a);
-    if(a==1)
+    if(a=='1')
     {
     printf("Monday");
     }
