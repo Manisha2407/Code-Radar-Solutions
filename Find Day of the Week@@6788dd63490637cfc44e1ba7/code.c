@@ -20,8 +20,11 @@ int main(){
      else if(a == 6){
     printf("Saturday\n");
      }
-    else{
+    else if(a == 7){
     printf("Sunday\n");
+    }
+    else{
+        printf("Invalid")
     }
     return 0;
     }
