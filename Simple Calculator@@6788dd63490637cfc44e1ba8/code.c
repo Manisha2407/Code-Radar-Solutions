@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     char sign;
-    scanf("%d %d %c",&a ,&b ,&sign);
+    scanf("%d %d %c",&a ,&b ,&sign);//there should be space in between %d %d %c 
     switch(sign){
         case '+':
         printf("%d",a+b);
@@ -17,7 +17,7 @@ int main(){
         if(b !=0)
             printf("%d",a/b);
         else
-            printf("error");
+            printf("error");// division by 0 should be zero
         break;
         default:
         printf("error");
