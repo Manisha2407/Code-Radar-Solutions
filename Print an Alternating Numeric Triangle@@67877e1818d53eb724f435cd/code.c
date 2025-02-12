@@ -4,9 +4,9 @@ int main(){
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
-            printf("%d ",(j+i)%2);
+            printf("%d ",(i+j)%2);
         }
         printf("\n");
-        }
-        return 0;
-    } 
+    }
+    return 0;
+}
