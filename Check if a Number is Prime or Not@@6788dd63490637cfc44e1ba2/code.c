@@ -4,11 +4,11 @@ int main(){
     scanf("%d",&n);
     if(n<=1){
         printf("Not Prime.");
+    }
         for (i=2;i*i<=n;i++){
             if(n%i==0){
                 k=0;
                 break;     
-            }
         }
     }
     if(isprime){
@@ -19,3 +19,4 @@ int main(){
     }
     return 0;
 }
+    
