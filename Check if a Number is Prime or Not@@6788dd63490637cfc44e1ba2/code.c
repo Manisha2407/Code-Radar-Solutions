@@ -11,7 +11,7 @@ int main(){
                 break;     
         }
     }
-    if(isprime){
+    if(k){
         printf("Prime");
     }
     else{
