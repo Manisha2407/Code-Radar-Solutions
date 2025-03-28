@@ -1,6 +1,6 @@
 #include<stdio.h>
 void isPrime(int x){
-    flag=0;
+    int flag=0;
     for(int i=2;i<n-1;i++){
         if(x%i==0){
             flag=1;
